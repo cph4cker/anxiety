@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3:  Nå, inden vi begynder, hvordan kunne *du* tænke dig at læse?
+n3: So before we start, how would *you* like to read?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3:  Lad os begynde på vores fortælling...
+n3: Now, let's begin our story...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: DET HER ER ET MENNESKE
+n2: THIS IS A HUMAN
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: OG DET HER ER MENNESKETS ANGST
+n: AND THIS IS THE HUMAN'S ANXIETY
 
-n:  _DU_ ER ANGSTEN
+n: _YOU_ ARE THE ANXIETY
 
 (#act1_normal)
 
@@ -66,45 +66,45 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nej. Nej, nope, jeg lytter ikke. Tjekker min telefon.
+h: Nope. No, nope, not listening. Gonna check my phone.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: DIT JOB ER AT BESKYTTE DIT MENNESKE FRA *FARE*
+n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gisp! Du scroller dit liv væk på Twitter! Igen!
+b: Gasp! You're scrolling your life away on Twitter! Again!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Jeg undrer mig da over hvorfor jeg ikke lytter til mine tanker lidt oftere.
+h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
 
 `hong({eyes:"neutral"});`
 
-n: HURTIGT, ADVAR DEM OM EN *FARE!*
+n: QUICK, WARN THEM ABOUT A *DANGER!*
 
 ```
 bb({eyes:"look"});
 ```
 
-[Åh nej, se den forfærdelige historie i nyhederne!](#act1d_news)
+[Oh no, look at that horrible news story!](#act1d_news)
 
-[Åh nej, er den tweet faktisk om *os?*](#act1d_subtweet)
+[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
 
-[Hey, en GIF af en kat der drikker mælk](#act1d_milk)
+[Hey, a GIF of a cat drinking milk](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh, det er da ret nuttet, jeg--
+h: Heh ya that's cute, I--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: KATTE KAN IKKE TÅLE MÆLK OG VI ER FORFÆRDELIGE MENNESKER FOR AT KUNNE LIDE DYREMISHANDLING
+b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
 
 (...200)
 
@@ -121,3 +121,6 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 attack("20p", "bad");
 publish("hp_show");
 ```
+
+
+
