@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Welcome! This is less of a "game," more of an interactive story. Hope you like reading, sucka!
+n3: Velkommen! Dette er mindre et "spil", mere en interaktiv historie. Håber du kan lide at læse, HAHAHA!
 
-n3: So before we start, how would *you* like to read?
+n3: Så før vi starter, hvordan vil *du* gerne læse?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
+n3: Perfekt! Bemærk: Du kan altid ændre indstillinger med ikonet ⚙ ikonet nedenfor. Spillet gemmer automatisk efter hvert kapitel!
 
-n3: Now, let's begin our story...
+n3: Lad os begynde vores historie...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: Now, let's begin our story...
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: DETTE ER ET MENNESKE
 
 (...600)
 
