@@ -1,5 +1,7 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
+# Test CBT
+
 # [Play the interactive story here!](https://ncase.me/anxiety/)
 
 ## Public Domain
@@ -109,7 +111,7 @@ B Cavello, EmilyKate McDonough, Glen Chiacchieri, Mikayla Hutchinson, Monica Sri
 
 ## How To Translate
 
-**TRANSLATIONS COMPLETE:** 
+**TRANSLATIONS COMPLETE:**
 [Русский](https://notdotteam.github.io/anxiety/),
 [Português do Brasil](https://lucasgcb.github.io/anxiety/),
 [Deutsch](https://jonasreich.github.io/anxiety/),
@@ -248,6 +250,3 @@ Do ***NOT*** send a Pull Request to *this* repo, because that will change the *o
 I'm usually busy and/or bad at email, so it'll take me a while to get around to it, but if I don't respond for a week, ping me again!
 
 Thank you you're the beeeeeest 💖🐺💖
-
-
-
